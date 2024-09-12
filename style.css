@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.logotipo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+header {
+    background-color: rgb(238, 203, 152);
+    margin: 10px;
+    padding: 10px;
+}
+
+header img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    border-radius: 100%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(18, 18, 19);
+
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(18, 18, 19);
+
+}
+
+header ul li {
+    margin: 20px;
+    justify-content: space-between;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.carousel {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: auto;
+
+}
+
+.cajamuj img {
+    border-radius: 50%;
+    width: 400px;
+    
+  
+}
+
+.cajamuj {
+    background-color: rgb(238, 203, 152);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    align-items: center;
+    align-content: center;
+
+
+}
+.cajamuj img {
+    width: 250px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.cajahom img {
+    border-radius: 50%;
+    width: 400px;
+    
+  
+}
+
+.cajahom {
+    background-color: rgb(238, 203, 152);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    align-items: center;
+    align-content: center;
+
+
+}
+.cajahom img {
+    width: 250px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.cajabod img {
+    border-radius: 50%;
+    width: 400px;
+    
+  
+}
+
+.cajabod {
+    background-color: rgb(238, 203, 152);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    align-items: center;
+    align-content: center;
+
+
+}
+.cajabod img {
+    width: 250px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+
+
+.cajita h3 {
+    font-family: "Dancing Script", cursive;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajita p {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+
+.cajita {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.contenedor {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 30px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+
+footer img {
+    width: 500px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(238, 203, 152);
+    margin: 10px;
+    padding: 15px;
+}
+
+footer h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+}
+
+@media screen and (max-width:576px) {
+    .logotipo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    header ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .cajamuj img {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .cajamuj {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        padding: 10px;
+        font-family: "Dancing Script", cursive;
+        font-size: 15px;
+    }
+
+    .cajahom img {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .cajahom {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        padding: 10px;
+        font-family: "Dancing Script", cursive;
+        font-size: 15px;
+    }
+
+    .cajabod img {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .cajabod {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        padding: 10px;
+        font-family: "Dancing Script", cursive;
+        font-size: 15px;
+    }
+
+
+
+    .cajita {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .ubicacion {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    footer img {
+        width: 150px;
+    }
+
+    footer h1 {
+        font-family: "Dancing Script", cursive;
+        font-size: 15px;
+    }
+
+}
